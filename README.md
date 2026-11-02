@@ -1,5 +1,7 @@
 # Visa sponsorship in UK job adverts (2026)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23886878.svg)](https://doi.org/10.5281/zenodo.23886878)
+
 Roughly **1 in 6** job adverts from employers we match to the UK Home Office register of licensed sponsors ruled out visa sponsorship, or required UK nationality, years of UK residence, security clearance or an existing right to work (November 2026 edition). Where the full advert could be read, it was about **1 in 5**. On the employers already covered in the September 2026 edition, the rate didn't change. Fewer than **1 in 100** adverts said sponsorship is available.
 
 This repository holds the aggregate data behind the study published by [SponsorJobs](https://sponsorjobs.co):
@@ -13,6 +15,8 @@ This repository holds the aggregate data behind the study published by [SponsorJ
 | September 2026 (live 23 Sep + 2 days) | 92,598 | 14.1% | 21.6% | [`data/visa-sponsorship-adverts-2026.csv`](data/visa-sponsorship-adverts-2026.csv) |
 
 Each edition is tagged (`2026-09`, `2026-11`). Earlier files are never overwritten. See [CHANGELOG.md](CHANGELOG.md).
+
+Also on [Zenodo](https://doi.org/10.5281/zenodo.23886878) (DOI 10.5281/zenodo.23886878), [Hugging Face](https://huggingface.co/datasets/sponsorjobs/uk-visa-sponsorship-adverts-2026) and [Kaggle](https://www.kaggle.com/datasets/sponsorjobsco/visa-sponsorship-in-uk-job-adverts-2026).
 
 ## Key figures, November 2026
 
@@ -66,6 +70,6 @@ Every advert SponsorJobs collects from an employer on the Home Office sponsor re
 
 Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You're welcome to use it with a credit and a link.
 
-> SponsorJobs (2026). *Do UK visa sponsors' job adverts offer sponsorship?* November 2026 edition. https://sponsorjobs.co/research/visa-sponsorship-adverts-2026
+> SponsorJobs (2026). *Do UK visa sponsors' job adverts offer sponsorship?* November 2026 edition. https://sponsorjobs.co/research/visa-sponsorship-adverts-2026. DOI: 10.5281/zenodo.23886878
 
 SponsorJobs is an independent UK job board that lists jobs at Home Office-licensed sponsors and reads every advert. It is not affiliated with the Home Office or UK Visas and Immigration, and this is not immigration advice.
