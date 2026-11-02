@@ -1,0 +1,67 @@
+table,group,adverts,ruled_out,ruled_out_pct,offered,offered_pct,note
+headline,All adverts read 24-25 Sep 2026 (all sources),92598,13018,14.1,520,0.56,unique employer + advert text; about a third are ~500-character snippets that usually cut off the sponsorship line
+headline,Full-text adverts read 24-25 Sep 2026,56568,12240,21.6,,,public job boards and employer career sites with the full advert
+headline,"Full-text adverts live on 23 Sep 2026, duplicates removed",44855,10095,22.5,,,analysis frame for the breakdowns below
+headline,"Same, without the 10 employers with most refusals",38294,5247,13.7,,,
+headline,Full-text adverts first seen 23-25 Sep 2026,11559,1823,15.8,,,new adverts only; dominated by a few bulk career-site syncs
+text_length_check,Identical jobs seen as a short snippet (~500 characters),209,0,0.0,,,"same jobs, both forms"
+text_length_check,The same jobs seen as the full advert,209,37,17.7,,,"same jobs, both forms"
+job_function,care-support,1969,942,47.8,1,0.05,driven largely by one employer (47% of refusals)
+job_function,engineering,4273,1718,40.2,16,0.37,driven largely by one employer (44% of refusals)
+job_function,security-protective,527,195,37.0,0,0.00,driven largely by one employer (52% of refusals)
+job_function,research,563,161,28.6,4,0.71,driven largely by one employer (52% of refusals)
+job_function,community-social,550,147,26.7,0,0.00,driven largely by one employer (44% of refusals)
+job_function,manufacturing-production,414,105,25.4,0,0.00,driven largely by one employer (46% of refusals)
+job_function,project-management,2067,516,25.0,1,0.05,
+job_function,consulting,1168,252,21.6,1,0.09,
+job_function,it,6059,1289,21.3,62,1.02,
+job_function,administrative,958,192,20.0,1,0.10,
+job_function,construction-trades,1690,322,19.1,0,0.00,
+job_function,quality-assurance,579,103,17.8,1,0.17,
+job_function,facilities-cleaning,891,159,17.8,0,0.00,
+job_function,real-estate,278,49,17.6,0,0.00,
+job_function,human-resources,989,164,16.6,0,0.00,
+job_function,purchasing,385,61,15.8,1,0.26,
+job_function,education,1845,289,15.7,3,0.16,
+job_function,business-development,934,136,14.6,1,0.11,
+job_function,media-communications,241,33,13.7,0,0.00,
+job_function,finance,1595,213,13.4,38,2.38,
+job_function,customer-support,710,95,13.4,0,0.00,
+job_function,operations,823,105,12.8,3,0.36,
+job_function,product-management,420,50,11.9,2,0.48,
+job_function,healthcare,2413,257,10.7,105,4.35,
+job_function,arts-design,431,43,10.0,2,0.46,
+job_function,hospitality-food,2211,213,9.6,0,0.00,
+job_function,sales,1999,174,8.7,10,0.50,
+job_function,marketing,902,74,8.2,5,0.55,
+job_function,logistics-transport,1105,90,8.1,1,0.09,
+job_function,accounting,1051,84,8.0,3,0.29,
+job_function,legal,722,46,6.4,1,0.14,
+seniority,internship,1534,929,60.6,,,
+seniority,entry,9411,3022,32.1,,,
+seniority,mid-senior,21876,4158,19.0,,,
+seniority,associate,6819,1009,14.8,,,
+seniority,director,1696,220,13.0,,,
+seniority,executive,292,25,8.6,,,
+employer_industry,Healthcare,2436,691,28.4,1,0.04,
+employer_industry,Manufacturing,1552,434,28.0,11,0.71,
+employer_industry,Energy,363,73,20.1,0,0.00,
+employer_industry,Education,1027,179,17.4,0,0.00,
+employer_industry,Technology,4030,587,14.6,31,0.77,
+employer_industry,Construction,1507,207,13.7,0,0.00,
+employer_industry,Business Services,2358,322,13.7,1,0.04,
+employer_industry,Government,339,45,13.3,0,0.00,
+employer_industry,Consulting,3548,384,10.8,55,1.55,
+employer_industry,Transportation & Logistics,446,47,10.5,1,0.22,
+employer_industry,Staffing & Recruiting,752,71,9.4,1,0.13,
+employer_industry,Real Estate,604,56,9.3,0,0.00,
+employer_industry,Financial Services,2586,182,7.0,22,0.85,
+employer_industry,Hospitality,1480,60,4.1,2,0.14,
+employer_industry,Accounting & Legal,919,37,4.0,1,0.11,
+employer_industry,Media & Entertainment,877,34,3.9,1,0.11,
+reason,Says sponsorship is not available,10095,5770,57.2,,,"share of full-text refusals, 23 Sep stock"
+reason,"Says so and also sets a clearance, nationality or residence condition",10095,638,6.3,,,"share of full-text refusals, 23 Sep stock"
+reason,"Only a clearance, UK nationality or UK residence condition",10095,2577,25.5,,,"share of full-text refusals, 23 Sep stock"
+reason,Only requires existing right to work in the UK,10095,954,9.5,,,"share of full-text refusals, 23 Sep stock"
+reason,No standard wording matched (mostly refusals phrased differently),10095,156,1.5,,,"share of full-text refusals, 23 Sep stock"
+offers_live,Live adverts that explicitly offer sponsorship (25 Sep 2026),72446,,,351,0.48,45 employers; top 3 = 65% of offering adverts

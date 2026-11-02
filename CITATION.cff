@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+type: dataset
+title: "Visa sponsorship in job adverts from UK sponsor-licensed employers, September 2026"
+authors:
+  - name: "SponsorJobs"
+    website: "https://sponsorjobs.co"
+date-released: 2026-09-25
+license: CC-BY-4.0
+url: "https://sponsorjobs.co/research/visa-sponsorship-adverts-2026"
+repository-code: "https://github.com/barisasaa/uk-visa-sponsorship-adverts-2026"
+keywords:
+  - UK visa sponsorship
+  - Skilled Worker visa
+  - job adverts
+  - Home Office sponsor register
