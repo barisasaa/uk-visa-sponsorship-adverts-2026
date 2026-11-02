@@ -1,0 +1,71 @@
+table,group,adverts,ruled_out,ruled_out_pct,offered,offered_pct,note
+headline,All adverts read 2026-10-03 to 2026-11-01 (all sources),202073,32465,16.1,810,0.40,unique employer + advert text; about 1 in 7 are ~500-character snippets that usually cut off the sponsorship line
+headline,Full-text adverts read 2026-10-03 to 2026-11-01,163891,31345,19.1,762,0.46,public job boards and employer career sites with the full advert; analysis frame for the breakdowns below
+headline,"Full-text, employers and sources we already read in September 2026",53014,12423,23.4,,,like-for-like with the September edition; 2123 employers
+headline,"Full-text, employers and sources added since September 2026",110877,18922,17.1,,,3150 employers
+headline,"Full-text, without the 10 employers with most refusals",153372,22962,15.0,,,
+headline,Snippet adverts only (~500 characters),30092,868,2.9,,,sponsorship line usually cut off
+text_length_check,Same job seen as a short snippet (~500 characters),1802,33,1.8,,,"same employer and title, one copy in each form"
+text_length_check,The same jobs seen as the full advert,1802,362,20.1,,,"same employer and title, one copy in each form"
+job_function,security-protective,1656,728,44.0,0,0.00,
+job_function,care-support,10954,4467,40.8,3,0.03,
+job_function,community-social,3574,921,25.8,9,0.25,
+job_function,engineering,13098,3280,25.0,99,0.76,
+job_function,project-management,5223,1069,20.5,17,0.33,
+job_function,it,11727,2188,18.7,219,1.87,
+job_function,research,2539,459,18.1,38,1.50,
+job_function,construction-trades,5156,905,17.6,0,0.00,
+job_function,administrative,3842,673,17.5,0,0.00,
+job_function,arts-design,996,157,15.8,6,0.60,
+job_function,operations,4313,654,15.2,16,0.37,
+job_function,education,7459,1101,14.8,11,0.15,
+job_function,purchasing,1238,180,14.5,1,0.08,
+job_function,hospitality-food,7469,1066,14.3,1,0.01,
+job_function,facilities-cleaning,4407,624,14.2,3,0.07,
+job_function,quality-assurance,2086,293,14.0,6,0.29,
+job_function,manufacturing-production,1847,247,13.4,0,0.00,
+job_function,real-estate,1280,169,13.2,0,0.00,
+job_function,consulting,4663,597,12.8,6,0.13,
+job_function,media-communications,920,109,11.8,1,0.11,
+job_function,marketing,2886,304,10.5,10,0.35,
+job_function,customer-support,2952,298,10.1,2,0.07,
+job_function,human-resources,2966,287,9.7,5,0.17,
+job_function,finance,5203,491,9.4,4,0.08,
+job_function,logistics-transport,6973,648,9.3,0,0.00,
+job_function,accounting,3416,290,8.5,7,0.20,
+job_function,business-development,2406,205,8.5,5,0.21,
+job_function,sales,5568,461,8.3,21,0.38,
+job_function,healthcare,12036,976,8.1,246,2.04,
+job_function,product-management,1359,106,7.8,19,1.40,
+job_function,legal,2977,198,6.7,5,0.17,
+seniority,internship,6509,3148,48.4,,,
+seniority,entry,35079,8388,23.9,,,
+seniority,associate,31456,5171,16.4,,,
+seniority,mid-senior,67245,8170,12.1,,,
+seniority,director,6346,626,9.9,,,
+seniority,executive,1326,76,5.7,,,
+employer_industry,Social Care,3854,1555,40.3,5,0.13,
+employer_industry,Energy,1190,334,28.1,3,0.25,
+employer_industry,Healthcare,11712,2429,20.7,29,0.25,
+employer_industry,Education,4809,940,19.5,22,0.46,
+employer_industry,Government,1138,184,16.2,1,0.09,
+employer_industry,Manufacturing,4758,762,16.0,26,0.55,
+employer_industry,Real Estate,955,149,15.6,0,0.00,
+employer_industry,Technology,9460,1437,15.2,133,1.41,
+employer_industry,Consulting,13463,1707,12.7,78,0.58,
+employer_industry,Research,741,75,10.1,11,1.48,
+employer_industry,Financial Services,9032,869,9.6,59,0.65,
+employer_industry,Staffing & Recruiting,1268,86,6.8,1,0.08,
+employer_industry,Business Services,4997,334,6.7,8,0.16,
+employer_industry,Transportation & Logistics,4701,219,4.7,8,0.17,
+employer_industry,Hospitality,3907,154,3.9,1,0.03,
+employer_industry,Accounting & Legal,1662,33,2.0,0,0.00,
+reason,Says sponsorship is not available,25175,11688,46.4,,,share of full-text refusals with archived text
+reason,"Says so and also sets a clearance, nationality or residence condition",25175,1006,4.0,,,share of full-text refusals with archived text
+reason,"Only a clearance, UK nationality or UK residence condition",25175,6545,26.0,,,share of full-text refusals with archived text
+reason,Only requires existing right to work in the UK,25175,5139,20.4,,,share of full-text refusals with archived text
+reason,No standard wording matched (mostly refusals phrased differently),25175,797,3.2,,,share of full-text refusals with archived text
+offers_live,Live adverts that explicitly offer sponsorship (2026-11-01),65468,,,579,0.88,102 employers; top 3 = 33.8% of offering adverts
+accuracy_check,"Ruled-out adverts confirmed, strict (a bare right-to-work line does not count)",80,55,68.8,,,random sample re-read by a second model; 95% CI 57.9-77.8
+accuracy_check,"Ruled-out adverts confirmed, classifier rules (a right-to-work line counts)",80,73,91.3,,,random sample re-read by a second model; 95% CI 83-95.7
+accuracy_check,Kept adverts that should have been ruled out,80,0,0.0,,,random sample re-read by a second model; 95% CI 0-4.6
